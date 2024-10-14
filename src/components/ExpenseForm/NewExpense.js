@@ -28,7 +28,7 @@ const NewExpense = (props) => {
       {isFormVisible && (
         <ExpenseForm
           onSaveExpense={handleSavedExpense}
-          onCancel={handleCancelClick} // Pass cancel handler to the form
+          onCancel={handleCancelClick}
         />
       )}
     </div>
